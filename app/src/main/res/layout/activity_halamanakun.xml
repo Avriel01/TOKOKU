@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/akunsaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Akun Saya"
+            android:textSize="18dp" />
+
+        <RelativeLayout
+            android:id="@+id/profilesaya"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@+id/akunsaya"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="6dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:text="Profile saya"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@+id/profilesaya"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="6dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:text="Alamat saya"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/catatan"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@+id/alamat"
+            android:background="@color/white">
+
+            <Button
+                android:id="@+id/button_catatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="catatan"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/catatan"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Setting"
+            android:textSize="18dp" />
+
+        <RelativeLayout
+            android:id="@+id/notifikasi"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@+id/setting"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="6dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:text="Notifikasi"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bahasa"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@+id/notifikasi"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="6dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:text="Bahasa"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_below="@+id/bahasa"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="6dp"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:text="Ubah password"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:shadowRadius="30"
+            android:text="LOGOUT" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

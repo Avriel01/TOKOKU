@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TOKOKU</string>
+    <string name="username_or_email">username</string>
+    <string name="action_settings">action_setting</string>
+</resources>

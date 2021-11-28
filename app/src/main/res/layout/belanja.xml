@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color3">
+
+    <RelativeLayout
+        android:id="@+id/pageatas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:drawableEnd="@drawable/ic_baseline_search_24"
+                android:drawableRight="@drawable/ic_baseline_search_24"
+                android:gravity="center_horizontal"
+                android:text="Search"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="84dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/kategori"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_horizontal"
+                android:text="Kategori"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/akun" />
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pageatas"
+        android:layout_marginHorizontal="16dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pageatas" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/pageatas">
+        <RelativeLayout
+            android:layout_width="147dp"
+            android:layout_height="202dp"
+            android:background="@color/color4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:gravity="center_horizontal"
+                android:text="MEN AIRism Katun T-Shirt Oversized Crew Neck"
+                android:textAlignment="center"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/baju1"
+                android:layout_width="129dp"
+                android:layout_height="133dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/baju1" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/pageatas">
+        <RelativeLayout
+            android:layout_width="147dp"
+            android:layout_height="202dp"
+            android:background="@color/color4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:gravity="center_horizontal"
+                android:text="MEN AIRism Katun T-Shirt Oversized Crew Neck"
+                android:textAlignment="center"
+                android:textSize="12dp" />
+            <ImageView
+                android:id="@+id/baju2"
+                android:layout_width="129dp"
+                android:layout_height="133dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/baju2" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="250dp"
+        android:layout_below="@+id/pageatas">
+        <RelativeLayout
+            android:layout_width="147dp"
+            android:layout_height="202dp"
+            android:background="@color/color4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:gravity="center_horizontal"
+                android:text="MEN AIRism Katun T-Shirt Oversized Crew Neck"
+                android:textAlignment="center"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/baju3"
+                android:layout_width="129dp"
+                android:layout_height="133dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/baju3" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="250dp"
+        android:layout_below="@+id/pageatas">
+        <RelativeLayout
+            android:layout_width="147dp"
+            android:layout_height="202dp"
+            android:background="@color/color4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:gravity="center_horizontal"
+                android:text="MEN T-Shirt Soft Touch Turtle Neck Lengan Panjang"
+                android:textAlignment="center"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/baju4"
+                android:layout_width="129dp"
+                android:layout_height="133dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/baju4" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="470dp"
+        android:layout_below="@+id/pageatas">
+        <RelativeLayout
+            android:layout_width="147dp"
+            android:layout_height="202dp"
+            android:background="@color/color4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:gravity="center_horizontal"
+                android:text="T-Shirt Waffle Crew Neck Lengan Panjang"
+                android:textAlignment="center"
+                android:textSize="12dp" />
+            <ImageView
+                android:id="@+id/baju5"
+                android:layout_width="129dp"
+                android:layout_height="133dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/baju5" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="470dp"
+        android:layout_below="@+id/pageatas">
+        <RelativeLayout
+            android:layout_width="147dp"
+            android:layout_height="202dp"
+            android:background="@color/color4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:gravity="center_horizontal"
+                android:text="T-Shirt Waffle Crew Neck Lengan Panjang"
+                android:textAlignment="center"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/baju6"
+                android:layout_width="129dp"
+                android:layout_height="133dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/baju6"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
